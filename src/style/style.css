@@ -1,0 +1,177 @@
+.body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+}
+/* HEADER */
+header {
+  background-color: rgb(69, 133, 175);
+  margin: 3px 5px 20px 5px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+.upper_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 128px;
+}
+.upper li a {
+  text-decoration: none;
+  font-size: 14px;
+  border-right: 1px solid white;
+  padding: 0px 5px;
+  padding-right: 10px;
+}
+.below_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.logo {
+  width: 250px;
+  font-size: 30px;
+  vertical-align: middle;
+  color: aliceblue;
+}
+.below li a {
+  margin: 0px 10px;
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: aliceblue;
+  margin: 3px 5px;
+  padding: 15px 0px;
+}
+.footer_container {
+  display: flex;
+  justify-content: center;
+}
+.footer_text {
+  font-size: 12px;
+  width: 400px;
+}
+ul li a {
+  margin: 0px 10px;
+  font-size: 18px;
+}
+.copyright {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+  font-size: 11px;
+}
+/* MAIN */
+.main_container {
+  display: flex;
+}
+.welcome {
+  width: 220px;
+  height: 350px;
+  background-color: rgb(69, 133, 175);
+  color: aliceblue;
+  padding: 0px 15px;
+}
+.welcome_text {
+  font-size: 12px;
+}
+.learnmore {
+  background-color: rgb(63, 138, 168);
+  border: 2px solid white;
+  color: aliceblue;
+  font-size: 13px;
+  display: block;
+  float: right;
+  margin-top: 50px;
+  padding: 10px;
+}
+.ux_container {
+  width: 500px;
+  height: 350px;
+  margin-left: 40px;
+  background-color: rgba(196, 196, 196, 0.658);
+}
+.ux_design {
+  font-size: 12px;
+  margin: 20px;
+}
+.design h3 {
+  margin-left: 20px;
+}
+img {
+  width: 100%;
+}
+/* SECOND CONTAINER */
+.sec_cont {
+  display: flex;
+  justify-content: center;
+}
+.offers_photo {
+  width: 50%;
+  margin-left: 40px;
+}
+.offers_photo img {
+  margin: 5px 0px;
+}
+.weather {
+  width: 300px;
+  background-color: rgba(196, 196, 196, 0.658);
+}
+.product_text {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.offers_text {
+  margin-left: 30px;
+  font-size: 14px;
+}
+/* CONTACT */
+.contact_container {
+  display: flex;
+  justify-content: space-around;
+}
+.contact {
+  width: 500px;
+}
+.contact p {
+  font-size: 13px;
+}
+.form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.form button {
+  width: 60%;
+  margin-top: 15px;
+  color: rgb(69, 133, 175);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(69, 133, 175);
+  padding: 10px;
+  font-weight: 800;
+}
+.form input {
+  border: 2px solid rgba(196, 196, 196, 0.658);
+  padding: 5px;
+}
+.form textarea {
+  border: 2px solid rgba(196, 196, 196, 0.658);
+  height: 150px;
+}
+.form label {
+  margin: 10px 0px;
+  font-weight: 600;
+  font-size: 15px;
+}
