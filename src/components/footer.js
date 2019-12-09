@@ -34,7 +34,7 @@ export class footer extends Component {
 
         <div className="copyright">
           <strong>DEMO</strong>
-          <span>SITE Alright reserver </span>
+          <span>SITE Alright reserved </span>
         </div>
       </footer>
     );

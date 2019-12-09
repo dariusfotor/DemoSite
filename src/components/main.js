@@ -30,7 +30,7 @@ export class main extends Component {
 
   weatherPic = () => {
     let info = this.state.conditionCode;
-    console.log(info);
+
     switch (info) {
       case "clear":
       case "isolated clouds":
