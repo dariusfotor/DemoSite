@@ -12,7 +12,7 @@ export class footer extends Component {
             ever since the 1500s, when an unknown printer took a galley
           </p>
           <nav>
-            <ul className="below">
+            <ul className="below_footer">
               <li>
                 <a href="#">HOME</a>
               </li>
