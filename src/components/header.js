@@ -48,7 +48,7 @@ export class header extends Component {
                 </li>
                 <li>
                   <a href="#">WORKS</a>
-                  <ul class="sub_menu">
+                  <ul className="sub_menu">
                     <li>ALL</li>
                     <li>GRAPHIC</li>
                     <li>DESIGN</li>

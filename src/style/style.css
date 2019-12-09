@@ -333,7 +333,7 @@ footer {
   .contact_container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
   }
   .welcome,
@@ -344,15 +344,51 @@ footer {
     padding: 0px;
     margin: 0px;
   }
+  .ux_design {
+    font-size: 22px;
+  }
   .with_border,
   .welcome_text {
-    margin: 15px;
+    margin: 25px;
+    font-size: 22px;
+  }
+  .welcome .with_border {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .with_border::after {
+    width: 70px;
+    height: 10px;
+  }
+  .product_text {
+    font-size: 36px;
+  }
+  .offers_text {
+    font-size: 19px;
+    font-weight: 800;
+  }
+  .offer_title {
+    bottom: 5;
+  }
+  .contact .with_border {
+    margin: 0;
+    font-size: 32px;
+  }
+  .contact .with_border:after {
+    width: 50px;
+  }
+  .contact p {
+    font-size: 22px;
   }
   .design {
     margin: 0;
   }
+  .design h3 {
+    font-size: 36px;
+    margin: 25px 0px 20px 20px;
+  }
   .learnmore {
-    margin: 30px 40px 30px 0px;
+    margin: 0px 40px 30px 0px;
   }
   .weather {
     margin-bottom: 15px;
@@ -365,6 +401,18 @@ footer {
   }
   .form button {
     width: 100%;
+    font-size: 16px;
+  }
+  .form label {
+    font-size: 17px;
+    margin: 15px 0;
+  }
+  .form .form_email {
+    border: 2px solid black;
+  }
+
+  .form input {
+    padding: 10px;
   }
   .footer_text,
   footer nav {

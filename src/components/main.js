@@ -131,7 +131,7 @@ export class main extends Component {
             <label>NAME</label>
             <input></input>
             <label>EMAIL</label>
-            <input placeholder="test@test.lt"></input>
+            <input className="form_email" placeholder="test@test.lt"></input>
             <label>MESSAGE</label>
             <textarea></textarea>
             <button>LEARN MORE</button>
